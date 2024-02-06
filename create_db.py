@@ -2,6 +2,7 @@ import configparser
 import psycopg2
 from psycopg2 import Error
 
+
 def create_db():
     config = configparser.ConfigParser()
     config.read('config.ini')
